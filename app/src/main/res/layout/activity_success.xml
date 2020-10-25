@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.activities.SuccessActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/great"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Confirmed Successfully !"
+        android:textSize="28sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for using our service."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will reach out to you soon."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need Help ?"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Call or message on Whatsapp"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/phone"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/phone"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whatsapp"
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

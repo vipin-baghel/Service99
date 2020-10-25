@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.0"
+
+    defaultConfig {
+        applicationId "com.service99"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //Firebase Authentication
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    //Firestore
+    implementation 'com.google.firebase:firebase-firestore:21.6.0'
+    // Analytics
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    //Crashlytics
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.1'
+    // Google sign in client
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+
+    //GridLayout
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    // RecyclerView
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    // Viewpager2
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+
+    // Fresco
+    implementation 'com.facebook.fresco:fresco:2.2.0'
+
+    //push down animation
+    implementation('com.github.thekhaeng:pushdown-anim-click:1.1.1') {
+        exclude group: 'com.android.support'
+    }
+
+    //Sweet Alert Dialog
+    implementation 'com.github.f0ris.sweetalert:library:1.6.2'
+
+    // date picker timeline
+    implementation 'com.vivekkaushik.datepicker:datePickerTimeline:0.0.4'
+
+    // Gmail Background - send mail without intent in background
+    implementation 'com.github.luongvo:GmailBackground:2.1.1'
+
+}

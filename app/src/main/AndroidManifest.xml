@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.service99">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        tools:ignore="LockedOrientationActivity"
+        tools:replace="android:icon">
+        <activity android:name=".ui.auth.VerifyPhnActivity"></activity>
+        <activity android:name=".ui.auth.LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.salon.men.BodyPolishMen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.men.WaxingMen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.men.MenTab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.contact_us.Partner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.contact_us.Franchisee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.contact_us.OurTeam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.BodyPolishWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.hair.HairSmootheningWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.hair.HaircolorWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.hair.HaircutWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.MakeUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.facial.FacialWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.CleanUpSkinWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.Pedicure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.Manicure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.PedicureManicure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.waxing.WaxingWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.hair.HairCareWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.Bleach"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.Detanning"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.SkinCare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.Threading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.MassageWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.men.MassageMen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.ComboWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.women.SalonForWomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.men.Salon3KidsHaircut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.men.Salon3MenHaircut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.men.SalonForMen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.delivery.VegetablesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.delivery.DairyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.delivery.FruitsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.delivery.CakeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.GraphicsNvideoEditing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.vehicle.TwoWheelerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.vehicle.CarServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.delivery.DeliveryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.VideoPromoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.DigitalMarketingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.WebDevActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.AndroidDevActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.GSTActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.CompanyRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.vehicle.CarRepairActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.BusinessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.DriverOnDemand"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.CCTVActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.FailedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.SuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.WaterTankCleaningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.vehicle.CarDeepCleaningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.FreshPaintingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.RepaintingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.CleaningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.appliance.ApplianceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.auth.AddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.EmptyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ScheduleBooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.FabricationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.EventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.salon.SalonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.CarpetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.SofaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.HomeCleanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.KitchenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cleaning.BathroomActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.vehicle.CarWashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PestControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PackersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.CarpenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PainterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.PlumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.ElectricianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.appliance.ACServicesActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

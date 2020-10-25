@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.nav_fragments.Franchise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/i1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fresco:placeholderImage="@drawable/ic_menu_gallery"
+                    fresco:viewAspectRatio="0.5"
+                    />
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/i2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fresco:placeholderImage="@drawable/ic_menu_gallery"
+                    fresco:viewAspectRatio="0.5"
+                    />
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/i3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fresco:placeholderImage="@drawable/ic_menu_gallery"
+                    fresco:viewAspectRatio="0.5"
+                    />
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/i4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fresco:placeholderImage="@drawable/ic_menu_gallery"
+                    fresco:viewAspectRatio="0.5"
+                    />
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/i5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fresco:placeholderImage="@drawable/ic_menu_gallery"
+                    fresco:viewAspectRatio="1.128"
+                    />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/cnf_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Consult Now" />
+
+    </LinearLayout>
+
+</FrameLayout>

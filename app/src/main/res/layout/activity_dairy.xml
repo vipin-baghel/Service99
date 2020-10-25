@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.delivery.DairyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Milk"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/curd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Curd"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/butter_milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Butter Milk"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/butter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Butter"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/paneer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Paneer"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/shrikhand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Shrikhand"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/lassi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Lassi"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/ghee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Ghee"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/bisleri1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Bisleri Water Bottle 1 Ltr."
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/bisleri20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Bisleri Water Bottle 20 Ltr."
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/mineral20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Mineral Water Bottle 20 Ltr."
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/tea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tea"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/coffee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Coffee"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/cnf_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Order Now" />
+
+</LinearLayout>

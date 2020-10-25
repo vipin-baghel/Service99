@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.nav_fragments.AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serviceskart Trusted Home Service Provider. We Provide You with a Variety of at-Home Services That simplify Everything Living You Can Book a Wide Range Of Services From Home Contraction To Home Maintenance,  Qualified Professional From Anywhere Anytime Entire Bhopal"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meet Our Team"
+                android:layout_gravity="center"
+                android:textColor="#014C45"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/nikhil_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nikhil Mishra"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Co-founder &amp; CEO "
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/fb_nikhil"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fb"
+                    />
+                <ImageView
+                    android:id="@+id/in_nikhil"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/insta"
+                    />
+                <ImageView
+                    android:id="@+id/tw_nikhl"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/twitter"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/yaman_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yaman Pathak"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marketing &amp; BPM "
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/fb_yaman"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fb"
+                    />
+                <ImageView
+                    android:id="@+id/in_yaman"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/insta"
+                    />
+                <ImageView
+                    android:id="@+id/tw_yaman"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/twitter"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/vivek_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vivek Rajoria"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accounting &amp; Finance "
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/fb_vivek"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fb"
+                    />
+                <ImageView
+                    android:id="@+id/in_vivek"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/insta"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/vipin_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vipin Baghel"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android App Developer"
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/fb_vipin"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fb"
+                    />
+                <ImageView
+                    android:id="@+id/ln_vipin"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/linkedin"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/prashant_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prashant Gautam"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telecaller Executive"
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/fb_prashant"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fb"
+                    />
+                <ImageView
+                    android:id="@+id/in_prashant"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/insta"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/abhijeet_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abhijeet Patel"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graphics Designer"
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/fb_abhijeet"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fb"
+                    />
+                <ImageView
+                    android:id="@+id/in_abhijeet"
+                    android:padding="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/insta"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/vikram_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                app:placeholderImage="@drawable/ic_menu_gallery"
+                app:roundAsCircle="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vikram Parmar"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:textStyle="bold|italic"
+                android:textSize="24sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marketing Executive"
+                android:layout_gravity="center"
+                android:textColor="#2196F3"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

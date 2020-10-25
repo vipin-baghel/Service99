@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.delivery.VegetablesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/potato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Potato"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/onion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Onion"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/tomato_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tomato Hybrid"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/tomato_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tomato Local"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Lemon"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/ginger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Ginger"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/garlic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Garlic"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/carrot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Carrot"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/lady_finger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Lady Finger"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/capsicum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Capsicum"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/cauliflower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Cauliflower"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/cabbage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Cabbage"
+                android:textSize="18sp" />
+            <CheckBox
+                android:id="@+id/coriander"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Coriander"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/cnf_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Order Now" />
+
+</LinearLayout>
